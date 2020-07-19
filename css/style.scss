@@ -59,6 +59,62 @@ html[data-theme='color_3']{
         transform: rotate(130deg);
     }
 }
+#back_to_top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fdfdfd;
+    background-color: var(--color_2);
+    outline: none;
+    border: 1px solid #fdfdfd;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    -webkit-transition-property: color,background-color;
+    transition-property: color,background-color;
+    z-index: 10;
+}
+  
+#back_to_top:hover, #back_to_top :focus {
+    background-color:  var(--color_1);
+    color: #fdfdfd;
+}
+.btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+@keyframes btnEntrance {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+} 
+.btnExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;  
+    animation-name: btnExit;
+}
+@keyframes btnExit {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+}
 /* common css*/
 body{
     font-family: 'Open Sans', sans-serif;
