@@ -1,0 +1,190 @@
+@media screen and (max-width: 480px) and (min-width: 300px){
+  .curve {
+    height: 40px !important;
+  }
+  .navbar-nav{
+		text-align: center !important;
+  } 
+  .search_box{
+		margin: auto !important;  
+  } 
+  #banner {
+    height: 500px !important;
+    background-position: initial !important;
+  }    
+  h1.banner_title {
+    font-size: 45px !important;  
+  } 
+   h1.banner_sub_text {
+    font-size: 15px !important;  
+  } 
+  button.banner_btn {
+   padding: 10px 25px !important;  
+  }
+  p.banner_text {
+    padding-right: 15% !important;  
+  }
+  .lets_go_box {
+    margin-top: 25px !important;
+  }
+  .lets_title {
+    font-size: 45px !important;
+  }
+  .lets_text {
+    padding: 0 0% !important;
+    font-size: 15px !important;
+  }
+  .dis_width{
+    height: 330px !important;
+  }
+  .dis_content_1{
+    height: 330px !important;
+    padding: 40px 50px !important;
+  }
+  
+  .dis_content_2{
+    height: 330px !important;
+    padding: 40px 50px !important;
+  }
+  .dis_title {
+    font-size: 20px !important;
+  }
+  .dis_text {
+    font-size: 16px !important;
+    padding-right: 0% !important;
+  }
+  button.dis_btn_1 {
+    padding: 8px 25px !important;
+    font-size: 13px !important;
+  }
+  button.dis_btn_2 {
+    padding: 8px 25px !important;
+    font-size: 13px !important;
+  }
+  .subs_para {
+		padding: 0 0% !important;
+		margin: 15px 0px;
+	}
+	.subs_form>.form-group>input[type="text"]{
+		width: 210px !important;
+		right: -20px !important;
+	}
+	.subs_form>.form-group>input[type="submit"]{
+		width: 110px !important;
+		left: -20px !important
+  }
+  .subs_box {
+    padding: 60px 0px !important;
+  }
+}
+@media screen and (max-width: 780px) and (min-width: 482px){
+  .navbar-nav{
+    text-align: center !important;
+  } 
+  .search_box{
+    margin: auto !important;  
+  } 
+  #banner {
+    height: 627px !important;
+    background-position: initial !important;
+  }    
+  h1.banner_title {
+    font-size: 65px !important;  
+  }  
+  p.banner_text {
+    padding-right: 35% !important;  
+  }
+  .lets_go_box {
+    margin-top: 25px !important;
+  }
+  .lets_title {
+    font-size: 50px !important;
+  }
+  .lets_text {
+    padding: 0 18% !important;
+    font-size: 16px !important;
+  }
+  .dis_title {
+    font-size: 20px !important;
+  }
+  .dis_text {
+    font-size: 16px !important;
+    padding-right: 0% !important;
+  }
+  button.dis_btn_1 {
+    padding: 8px 25px !important;
+    font-size: 13px !important;
+  }
+  button.dis_btn_2 {
+    padding: 8px 25px !important;
+    font-size: 13px !important;
+  }
+  .subs_para {
+		padding: 0 10% !important;
+	}
+	.subs_form>.form-group>input[type="text"]{
+		width: 240px !important;
+	}
+	.subs_form>.form-group>input[type="submit"]{
+		width: 120px !important;
+  }
+  .footer_title {
+		font-size: 18px !important;
+	}
+	.footer_para {
+		margin: 20px 0px !important;
+		font-size: 13px !important;
+	}
+	.links a {
+		font-size: 9px !important;
+		line-height: 20px !important;
+	}
+	.links {
+		margin-top: 10px !important;
+	}
+}
+@media screen and (max-width: 1100px) and (min-width: 781px){
+  .navbar-nav{
+    text-align: center !important;
+  } 
+  .search_box{
+    margin: auto !important;  
+  } 
+  #banner {
+    height: 645px !important;
+    background-position: initial !important;
+  }    
+  h1.banner_title {
+    font-size: 67px !important;  
+  }  
+  p.banner_text {
+    padding-right: 50% !important;
+  }
+  .lets_go_box {
+    margin-top: 0px !important;
+  }
+  .lets_title {
+    font-size: 50px !important;
+  }
+  .lets_text {
+    padding: 0 27% !important;
+    font-size: 16px !important;
+  }
+  .subs_para {
+		padding: 0 10% !important;
+  }
+  .footer_title {
+		font-size: 18px !important;
+	}
+	.footer_para {
+		margin: 20px 0px !important;
+		font-size: 13px !important;
+	}
+	.links a {
+		font-size: 10px !important;
+		line-height: 20px !important;
+	}
+	.links {
+		margin-top: 10px !important;
+	}
+}
