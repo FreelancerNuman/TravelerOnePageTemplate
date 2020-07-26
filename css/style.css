@@ -46,18 +46,21 @@ html[data-theme='color_3'] {
   width: 20px;
   height: 20px;
   background: #e2a355;
+  border-radius: 100%;
 }
 
 .colors_2 {
   width: 20px;
   height: 20px;
   background: #00adb5;
+  border-radius: 100%;
 }
 
 .colors_3 {
   width: 20px;
   height: 20px;
   background: #e8505b;
+  border-radius: 100%;
 }
 
 .show_color_btn {
